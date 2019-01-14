@@ -181,6 +181,13 @@ header .logo {
    line-height: 18px;
 }
 
+@media ( max-width: 800px ) {
+    .main-content {
+        padding-left: 25px;
+        width: 745px;
+    }
+}
+
 .main-content .top-content {
     display: flex;
 }
@@ -188,6 +195,12 @@ header .logo {
 .main-content .middle-img {
     display: block;
     margin: 30px auto;
+}
+
+@media (  max-width: 800px ) {
+    .middle-img {
+        width: 50%;
+    }
 }
 
 .main-content .bottom-content {
